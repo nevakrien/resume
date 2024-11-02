@@ -14,11 +14,14 @@ This project was a collaboration between Intel and Technion, where I contributed
 
 **Project**: Managed Memory Interpreter for a Simple Scripting Language  
 
-This project was optimized by reviewing raw assembly output and incorporating some unsafe Rust for specific features. The language was initially implemented with a tree-walk interpreter and later transitioned to a bytecode .
+This project was optimized by reviewing raw assembly output and incorporating some unsafe Rust for specific features. The language was initially implemented with a tree-walk interpreter and later transitioned to a bytecode VM.
 
 **Key Features**:
+
 1. Tail call optimization
+
 2. Lambda functions
+
 3. File operations
 
 **Code**: [Faeyne_lang GitHub Repository](https://github.com/nevakrien/Faeyne_lang)
@@ -26,7 +29,7 @@ This project was optimized by reviewing raw assembly output and incorporating so
 ## AI Education
 **Languages**: Python
 
-Since 2022,  I have been a mentee of Guy Tamir. We worked on many things but mainly on educational content explaining AI development. My code has been used as an example in Intel’s official [YouTube tutorials](https://www.youtube.com/watch?v=6-ToSvHidy0&list=PLXB3P9W0qDDhtDAjs1U2arVWiyq9z3nDS&index=5) and in internal workshops.
+Since 2022, I have been a mentee of Guy Tamir, focusing primarily on educational content explaining AI development. My code has been used as an example in Intel’s official [YouTube tutorials](https://www.youtube.com/watch?v=6-ToSvHidy0&list=PLXB3P9W0qDDhtDAjs1U2arVWiyq9z3nDS&index=5) and in internal workshops.
 
 In addition to writing code, I have contributed by explaining specific AI technologies and summarizing literature, similar to my work in my research position.
 
@@ -40,8 +43,11 @@ In addition to writing code, I have contributed by explaining specific AI techno
 Utilizes raw NASM assembly for core components, with statically linked precompiled C for I/O. This project has no external dependencies or packages.
 
 **Key Optimizations**:
+
 1. Dead code elimination
+
 2. Constant folding
+
 3. Memory alignment
 
 **Articles**: [Compiler from Scratch](https://medium.com/@nevo.krien/list/compiler-from-scratch-eaaf449bb894)
