@@ -1,7 +1,7 @@
 # Resume
 
 ## Academic Research
-**Languages**: Python
+**Tech**: Python,Huggingface,Pytorch,Tensorflow,Postgress,Faiss,Openai,Ipex,Langchain,Matplotlib,Numpy,Pandas,Sklearn,Flask
 
 I have been part of a team developing new code generation LLMs for C, C++, and Fortran. Initially brought on for my strong grasp of mathematics (having followed the research on and off since 2016), I later expanded my role to include implementation, including work with Intel GPUs.
 
@@ -27,7 +27,7 @@ This project was optimized by reviewing raw assembly output and incorporating so
 **Code**: [Faeyne_lang GitHub Repository](https://github.com/nevakrien/Faeyne_lang)
 
 ## AI Education
-**Languages**: Python
+**Tech**: Python, Openvino, diffusers,Huggingface,Pytorch,Tensorflow,Postgress,Faiss,Openai,Ipex,Langchain,Matplotlib,Numpy,Pandas,Sklearn,Scipy,Gradio
 
 Since 2022, I have been a mentee of Guy Tamir, focusing primarily on educational content explaining AI development. My code has been used as an example in Intel’s official [YouTube tutorials](https://www.youtube.com/watch?v=6-ToSvHidy0&list=PLXB3P9W0qDDhtDAjs1U2arVWiyq9z3nDS&index=5) and in internal workshops.
 
@@ -36,7 +36,7 @@ In addition to writing code, I have contributed by explaining specific AI techno
 *Reference*: Guy Tamir, Intel (Email: guy.tamir@intel.com)
 
 ## Toy Compiler
-**Languages**: C, C++, and x86-64 Assembly  
+**Tech**: C, C++, and x86-64 Assembly  
 
 **Project**: Optimizing Compiler for Turing Machines  
 
