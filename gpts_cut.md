@@ -26,21 +26,23 @@ AI researcher with 2+ years of experience in developing cutting-edge LLM technol
 - **Educational Content Creation**: *Intel*  
   Since 2022, I have developed educational content explaining AI development concepts and technologies.  
   My work includes writing code featured in Intel’s official [YouTube tutorials](https://www.youtube.com/watch?v=6-ToSvHidy0&list=PLXB3P9W0qDDhtDAjs1U2arVWiyq9z3nDS&index=5) and internal workshops.  
-  I specialize in breaking down complex AI topics and new research into digestible formats for both technical and non-technical audiences.  
+  I specialize in breaking down complex AI topics and new research into digestible formats for both technical and non-technical audiences. Over the course of my work, I have explained over **100 research papers, topics, and technologies**, tailoring content for various audiences.  
   Additionally, I wrote inference code optimized for consumer laptops, achieving up to **10x reliability improvements** through OpenVINO optimizations.
 
 - **Research Contributions**: *Intel and Technion Collaboration*  
   As part of a collaborative team between Intel and Technion, I worked on developing code generation LLMs for C, C++, and Fortran.  
   Initially recruited for my mathematical expertise, I expanded my responsibilities to include implementing and debugging robust LLM evaluation pipelines and optimizing model performance for Intel GPUs.  
+  I conducted a thorough literature review, analyzing over **10 related research papers within a week** to support the development of our LLM framework and ensure alignment with state-of-the-art methodologies.  
   **Publication**: [Code Generation with LLMs](https://arxiv.org/abs/2308.09440)  
+
 
 ---
 
 ## **Projects**  
 - **Compiler Development**:  
-  Developed two compilers using C99, C++-17, and unsafe Rust ([Faeyne_lang](https://github.com/nevakrien/Faeyne_lang), [Turing Compiler](https://github.com/nevakrien/Turing-compiler)).  
-  Tail call optimization, constant folding, memory alignment, and a bytecode virtual machine were implemented.  
-  Achieved over 2x performance improvement from the baseline.
+  Developed two compilers using C99, C++-17, and unsafe Rust ([Faeyne_lang](https://github.com/nevakrien/Faeyne_lang), [Turing Compiler](https://github.com/nevakrien/Turing-compiler)).   
+  Constant folding and memory alignment achieved over 2x performance improvement from the baseline.  
+  Tail call optimization moved from O(n) to O(1) memory usage achiving over 100x   improvment on common test cases.
 
 - **AI Assistant Website**:  
   Built an AI assistant using OpenAI API with custom prompt engineering logic ([GitHub](https://github.com/nevakrien/ai_secretary2)).  
