@@ -2,18 +2,25 @@
 been a mentee of Guy Tamir (Email: guy.tamir@intel.com) and worked with Intel.
 since 2022. 
 
-my work includes but isnt limited to:
+my work includes but isn't limited to:
 
 1. been on a research team that worked on [AI research with LLMs](https://arxiv.org/abs/2308) 
-my focus was evaluation code but I also helped the dev team debug.
 2. Working on demos for intel products: including an in person workshop for intels AI-PC.
 3. My code has been used as an example in Intel’s official [YouTube tutorials](https://www.youtube.com/watch?v=6-ToSvHidy0&list=PLXB3P9W0qDDhtDAjs1U2arVWiyq9z3nDS&index=5)
+
+4. [educational blog on medium](https://medium.com/@nevo.krien)
 
 # Side Projects
 **GitHub Profile**: [Neva Krien's GitHub](https://github.com/nevakrien)
 
 - **Compilers**
-made 2 different compilers/languges 1 using just pure c99+Nasm and another with unsafe Rust
+made 2 different compilers/languages 1 using just pure c99+Nasm and another with unsafe Rust
+
+- **Assembly Viewer**
+[rust CLI](https://crates.io/crates/source_viewer) for viewing dissasmbly thats languge egnostic
+
+- **Educational Low Level Content**
+[this repo](https://github.com/nevakrien/benchmark-errors/tree/main)
 
 - **VPN proxy**
 made a small [vpn proxy](https://github.com/nevakrien/vpn_proxy) that allows managing VPN ips.
@@ -25,7 +32,7 @@ using the openai API with a bit of custom prompt engineering logic.
 - **Accidental Rebuild of pypi-timemachine**
 
 - **Movie Subtitles Translation Tool**: Used by my mentor
-- [**Auto_New**](https://crates.io/crates/auto_new) Rust libarary for optimizing constructors(over 100 downloads in the first 2 days)
+- [**Auto_New**](https://crates.io/crates/auto_new) Rust library for optimizing constructors(over 100 downloads in the first 2 days)
 - **CUDA Matrix Multiplication**: Including optimizations
 - **Profiler for C++ LLM Code**
 - **Genetic Algorithm Runtime**
