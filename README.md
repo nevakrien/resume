@@ -5,8 +5,8 @@ Low-level systems programmer with research experience in LLMs.
 
 - Mentee of Guy Tamir (Intel) since 2022; contributed to research and educational outreach in AI.
 - Participated in a research team focused on large language models (LLMs) for C++ code generation.  
-  *(Reference: [our first paper](https://arxiv.org/abs/2308.09440))*
-- Built demo applications for Intel products, including presenting at an in-person Intel AI-PC workshop.
+  *(Reference: [our first paper](https://arxiv.org/abs/2308.09440) 18-aug-2023)*
+- Built demo applications for Intel products, including presenting at an in-person Intel AI-PC workshop 2025.
 - Authored example code used in Intel’s official [YouTube AI tutorials](https://www.youtube.com/watch?v=6-ToSvHidy0&list=PLXB3P9W0qDDhtDAjs1U2arVWiyq9z3nDS&index=5).
 
 ## Language Design & Compiler Work
@@ -32,7 +32,7 @@ Low-level systems programmer with research experience in LLMs.
 
 ## Side Projects
 
-- **Movie Subtitles Translation Tool**: Used by my mentor; converts and batch-translates subtitle files via [CLI pipeline](https://github.com/nevakrien/srt_translate).
+- **Movie Subtitles Translation Tool**: Used by my mentor; converts and batch-translates subtitle files via [CLI pipeline](https://github.com/nevakrien/srt_translate) saved hours of manual translation work for 30 minutes of scripting.
 - **Accidental Rebuild of pypi-timemachine**: Recreated functionality for [reproducible PyPI builds](https://github.com/nevakrien/time_machine_pip).
 - [`vpn_proxy`](https://github.com/nevakrien/vpn_proxy): Simple tool for managing VPN exit IPs; made as a weekend learning project.
 - [AI Assistant Website](https://github.com/nevakrien/ai_secretary2): Small website using OpenAI API for scheduling; includes custom prompt logic and basic UI.
