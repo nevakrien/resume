@@ -1,56 +1,55 @@
-# Ai research and Education
-been a mentee of Guy Tamir (Email: guy.tamir@intel.com) and worked with Intel.
-since 2022. 
+# Neva Krien
+Low-level systems programmer with research experience in LLMs.
 
-my work includes but isn't limited to:
+## AI Research & Education
 
-1. been on a research team that worked on [AI research with LLMs](https://arxiv.org/abs/2308) 
-2. Working on demos for intel products: including an in person workshop for intels AI-PC.
-3. My code has been used as an example in Intel’s official [YouTube tutorials](https://www.youtube.com/watch?v=6-ToSvHidy0&list=PLXB3P9W0qDDhtDAjs1U2arVWiyq9z3nDS&index=5)
+- Mentee of Guy Tamir (Intel) since 2022; contributed to research and educational outreach in AI.
+- Participated in a research team focused on large language models (LLMs) for C++ code generation.  
+  *(Reference: [our first paper](https://arxiv.org/abs/2308.09440))*
+- Built demo applications for Intel products, including presenting at an in-person Intel AI-PC workshop.
+- Authored example code used in Intel’s official [YouTube AI tutorials](https://www.youtube.com/watch?v=6-ToSvHidy0&list=PLXB3P9W0qDDhtDAjs1U2arVWiyq9z3nDS&index=5).
 
-4. [educational blog on medium](https://medium.com/@nevo.krien)
+## Language Design & Compiler Work
 
-# Side Projects
-**GitHub Profile**: [Neva Krien's GitHub](https://github.com/nevakrien)
+- Core team member of [PAL](https://social.programming-language.design/t/radical-determinism/25): A new programming language currently under closed development.
+- Built two toy compilers/interpreters:
+  - One in **pure C99 + NASM**, including a full optimization pipeline (constant folding, loop unrolling, branch elimination).
+  - One in **Rust**, using `unsafe` for a simple dynamic language with a VM.
 
-- **Compilers**
-made 2 different compilers/languages 1 using just pure c99+Nasm and another with unsafe Rust
+## Open Source & Community Contributions
 
-- **Assembly Viewer**
-[rust CLI](https://crates.io/crates/source_viewer) for viewing dissasmbly thats languge egnostic
+- Contributor to [cURL](https://github.com/curl/curl): Working on a [PR](https://github.com/curl/curl/pull/17152) for a 5-year-old issue, in collaboration with maintainers.
 
-- **Educational Low Level Content**
-[this repo](https://github.com/nevakrien/benchmark-errors/tree/main)
+## My Own Tools
 
-- **VPN proxy**
-made a small [vpn proxy](https://github.com/nevakrien/vpn_proxy) that allows managing VPN ips.
+- [`source_viewer`](https://crates.io/crates/source_viewer): A language-agnostic Rust CLI tool for analyzing disassembly. Supports any language without requiring a special build.
+- [`auto_new`](https://crates.io/crates/auto_new): A procedural macro for ergonomic constructor generation in Rust (100+ downloads in the first 2 days). Lightweight, fast, and dependency-free.
 
-- **Website** made a small [AI assistant website](https://github.com/nevakrien/ai_secretary2)
-using the openai API with a bit of custom prompt engineering logic.
+## Educational Content
 
+- [Blog on Medium](https://medium.com/@nevo.krien): Writings on systems programming.
+- [`benchmark-errors`](https://github.com/nevakrien/benchmark-errors): Educational repo with curated examples of common benchmarking pitfalls and statistical analysis.
 
-- **Accidental Rebuild of pypi-timemachine**
+## Side Projects
 
-- **Movie Subtitles Translation Tool**: Used by my mentor
-- [**Auto_New**](https://crates.io/crates/auto_new) Rust library for optimizing constructors(over 100 downloads in the first 2 days)
-- **CUDA Matrix Multiplication**: Including optimizations
-- **Profiler for C++ LLM Code**
-- **Genetic Algorithm Runtime**
+- **Movie Subtitles Translation Tool**: Used by my mentor; converts and batch-translates subtitle files via [CLI pipeline](https://github.com/nevakrien/srt_translate).
+- **Accidental Rebuild of pypi-timemachine**: Recreated functionality for [reproducible PyPI builds](https://github.com/nevakrien/time_machine_pip).
+- [`vpn_proxy`](https://github.com/nevakrien/vpn_proxy): Simple tool for managing VPN exit IPs; made as a weekend learning project.
+- [AI Assistant Website](https://github.com/nevakrien/ai_secretary2): Small website using OpenAI API for scheduling; includes custom prompt logic and basic UI.
 
-- ...
+- ...and more.
 
+## Technical Skills
 
-# Knowen Tech
-- AI: Huggingface,Pytorch,Tensorflow,Ipex,Opevino,diffusers
-- Low Level: x86_64 (Nasm and GAS),C,LLVM_IR,Rust,C++
-- PythonMl: Matplotlib,Numpy,Pandas,Sklearn
-- LLMs: Langchain,Openai,Faiss
-- Rust Core: proc_macros,unsafe
-- Backend: Rust,C,C++,Go,Elixir,Sql,Postgress,Java,C#
-- FrontEnd: Javascript,HTML,CSS,Raylib
-
+**AI & ML**: PyTorch, TensorFlow, Huggingface, Diffusers, OpenVINO, Intel IPEX  
+**LLMs & Tooling**: LangChain, OpenAI API, FAISS  
+**Systems**: x86_64 ASM (NASM, GAS), LLVM IR, Rust (unsafe, proc_macros), C, C++, CUDA (basic)  
+**Data & Scientific**: Numpy, Pandas, Scikit-learn, Matplotlib  
+**Backend**: Rust, C++, Go, Elixir, Java, C#, SQL, PostgreSQL  
+**Frontend / GUI**: HTML, CSS, JavaScript (basic), Raylib  
 
 ## Education
-**Bachelor's Degree**  
-- **Institution**: The Open University of Israel  
-- **Year**: Second year  
+
+**B.Sc. in Computer Science**  
+- The Open University of Israel  
+- Currently in second year

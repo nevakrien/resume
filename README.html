@@ -1076,70 +1076,57 @@ body .markdown-body
 .highlight .vi{color:teal}
 .highlight .il{color:#009999}
 .highlight .gc{color:#999;background-color:#EAF2F5}
-</style><title>README</title></head><body><article class="markdown-body"><h1 id="ai-research-and-education">Ai research and Education<a class="headerlink" href="#ai-research-and-education" title="Permanent link"></a></h1>
-<p>been a mentee of Guy Tamir (Email: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#103;&#117;&#121;&#46;&#116;&#97;&#109;&#105;&#114;&#64;&#105;&#110;&#116;&#101;&#108;&#46;&#99;&#111;&#109;">&#103;&#117;&#121;&#46;&#116;&#97;&#109;&#105;&#114;&#64;&#105;&#110;&#116;&#101;&#108;&#46;&#99;&#111;&#109;</a>) and worked with Intel.
-since 2022. </p>
-<p>my work includes but isn&rsquo;t limited to:</p>
-<ol>
-<li>been on a research team that worked on <a href="https://arxiv.org/abs/2308">AI research with LLMs</a> </li>
-<li>Working on demos for intel products: including an in person workshop for intels AI-PC.</li>
-<li>
-<p>My code has been used as an example in Intel’s official <a href="https://www.youtube.com/watch?v=6-ToSvHidy0&amp;list=PLXB3P9W0qDDhtDAjs1U2arVWiyq9z3nDS&amp;index=5">YouTube tutorials</a></p>
-</li>
-<li>
-<p><a href="https://medium.com/@nevo.krien">educational blog on medium</a></p>
-</li>
-</ol>
-<h1 id="side-projects">Side Projects<a class="headerlink" href="#side-projects" title="Permanent link"></a></h1>
-<p><strong>GitHub Profile</strong>: <a href="https://github.com/nevakrien">Neva Krien&rsquo;s GitHub</a></p>
+</style><title>README</title></head><body><article class="markdown-body"><h1 id="neva-krien">Neva Krien<a class="headerlink" href="#neva-krien" title="Permanent link"></a></h1>
+<p>Low-level systems programmer with research experience in LLMs.</p>
+<h2 id="ai-research-education">AI Research &amp; Education<a class="headerlink" href="#ai-research-education" title="Permanent link"></a></h2>
 <ul>
+<li>Mentee of Guy Tamir (Intel) since 2022; contributed to research and educational outreach in AI.</li>
+<li>Participated in a research team focused on large language models (LLMs) for C++ code generation.<br />
+<em>(Reference: <a href="https://arxiv.org/abs/2308.09440">our first paper</a>)</em></li>
+<li>Built demo applications for Intel products, including presenting at an in-person Intel AI-PC workshop.</li>
+<li>Authored example code used in Intel’s official <a href="https://www.youtube.com/watch?v=6-ToSvHidy0&amp;list=PLXB3P9W0qDDhtDAjs1U2arVWiyq9z3nDS&amp;index=5">YouTube AI tutorials</a>.</li>
+</ul>
+<h2 id="language-design-compiler-work">Language Design &amp; Compiler Work<a class="headerlink" href="#language-design-compiler-work" title="Permanent link"></a></h2>
+<ul>
+<li>Core team member of <a href="https://social.programming-language.design/t/radical-determinism/25">PAL</a>: A new programming language currently under closed development.</li>
+<li>Built two toy compilers/interpreters:</li>
+<li>One in <strong>pure C99 + NASM</strong>, including a full optimization pipeline (constant folding, loop unrolling, branch elimination).</li>
+<li>One in <strong>Rust</strong>, using <code>unsafe</code> for a simple dynamic language with a VM.</li>
+</ul>
+<h2 id="open-source-community-contributions">Open Source &amp; Community Contributions<a class="headerlink" href="#open-source-community-contributions" title="Permanent link"></a></h2>
+<ul>
+<li>Contributor to <a href="https://github.com/curl/curl">cURL</a>: Working on a <a href="https://github.com/curl/curl/pull/17152">PR</a> for a 5-year-old issue, in collaboration with maintainers.</li>
+</ul>
+<h2 id="my-own-tools">My Own Tools<a class="headerlink" href="#my-own-tools" title="Permanent link"></a></h2>
+<ul>
+<li><a href="https://crates.io/crates/source_viewer"><code>source_viewer</code></a>: A language-agnostic Rust CLI tool for analyzing disassembly. Supports any language without requiring a special build.</li>
+<li><a href="https://crates.io/crates/auto_new"><code>auto_new</code></a>: A procedural macro for ergonomic constructor generation in Rust (100+ downloads in the first 2 days). Lightweight, fast, and dependency-free.</li>
+</ul>
+<h2 id="educational-content">Educational Content<a class="headerlink" href="#educational-content" title="Permanent link"></a></h2>
+<ul>
+<li><a href="https://medium.com/@nevo.krien">Blog on Medium</a>: Writings on systems programming.</li>
+<li><a href="https://github.com/nevakrien/benchmark-errors"><code>benchmark-errors</code></a>: Educational repo with curated examples of common benchmarking pitfalls and statistical analysis.</li>
+</ul>
+<h2 id="side-projects">Side Projects<a class="headerlink" href="#side-projects" title="Permanent link"></a></h2>
+<ul>
+<li><strong>Movie Subtitles Translation Tool</strong>: Used by my mentor; converts and batch-translates subtitle files via <a href="https://github.com/nevakrien/srt_translate">CLI pipeline</a>.</li>
+<li><strong>Accidental Rebuild of pypi-timemachine</strong>: Recreated functionality for <a href="https://github.com/nevakrien/time_machine_pip">reproducible PyPI builds</a>.</li>
+<li><a href="https://github.com/nevakrien/vpn_proxy"><code>vpn_proxy</code></a>: Simple tool for managing VPN exit IPs; made as a weekend learning project.</li>
 <li>
-<p><strong>Compilers</strong>
-made 2 different compilers/languages 1 using just pure c99+Nasm and another with unsafe Rust</p>
+<p><a href="https://github.com/nevakrien/ai_secretary2">AI Assistant Website</a>: Small website using OpenAI API for scheduling; includes custom prompt logic and basic UI.</p>
 </li>
 <li>
-<p><strong>Assembly Viewer</strong>
-<a href="https://crates.io/crates/source_viewer">rust CLI</a> for viewing dissasmbly thats languge egnostic</p>
-</li>
-<li>
-<p><strong>Educational Low Level Content</strong>
-<a href="https://github.com/nevakrien/benchmark-errors/tree/main">this repo</a></p>
-</li>
-<li>
-<p><strong>VPN proxy</strong>
-made a small <a href="https://github.com/nevakrien/vpn_proxy">vpn proxy</a> that allows managing VPN ips.</p>
-</li>
-<li>
-<p><strong>Website</strong> made a small <a href="https://github.com/nevakrien/ai_secretary2">AI assistant website</a>
-using the openai API with a bit of custom prompt engineering logic.</p>
-</li>
-<li>
-<p><strong>Accidental Rebuild of pypi-timemachine</strong></p>
-</li>
-<li>
-<p><strong>Movie Subtitles Translation Tool</strong>: Used by my mentor</p>
-</li>
-<li><a href="https://crates.io/crates/auto_new"><strong>Auto_New</strong></a> Rust library for optimizing constructors(over 100 downloads in the first 2 days)</li>
-<li><strong>CUDA Matrix Multiplication</strong>: Including optimizations</li>
-<li><strong>Profiler for C++ LLM Code</strong></li>
-<li>
-<p><strong>Genetic Algorithm Runtime</strong></p>
-</li>
-<li>
-<p>&hellip;</p>
+<p>&hellip;and more.</p>
 </li>
 </ul>
-<h1 id="knowen-tech">Knowen Tech<a class="headerlink" href="#knowen-tech" title="Permanent link"></a></h1>
-<ul>
-<li>AI: Huggingface,Pytorch,Tensorflow,Ipex,Opevino,diffusers</li>
-<li>Low Level: x86_64 (Nasm and GAS),C,LLVM_IR,Rust,C++</li>
-<li>PythonMl: Matplotlib,Numpy,Pandas,Sklearn</li>
-<li>LLMs: Langchain,Openai,Faiss</li>
-<li>Rust Core: proc_macros,unsafe</li>
-<li>Backend: Rust,C,C++,Go,Elixir,Sql,Postgress,Java,C#</li>
-<li>FrontEnd: Javascript,HTML,CSS,Raylib</li>
-</ul>
+<h2 id="technical-skills">Technical Skills<a class="headerlink" href="#technical-skills" title="Permanent link"></a></h2>
+<p><strong>AI &amp; ML</strong>: PyTorch, TensorFlow, Huggingface, Diffusers, OpenVINO, Intel IPEX<br />
+<strong>LLMs &amp; Tooling</strong>: LangChain, OpenAI API, FAISS<br />
+<strong>Systems</strong>: x86_64 ASM (NASM, GAS), LLVM IR, Rust (unsafe, proc_macros), C, C++, CUDA (basic)<br />
+<strong>Data &amp; Scientific</strong>: Numpy, Pandas, Scikit-learn, Matplotlib<br />
+<strong>Backend</strong>: Rust, C++, Go, Elixir, Java, C#, SQL, PostgreSQL<br />
+<strong>Frontend / GUI</strong>: HTML, CSS, JavaScript (basic), Raylib  </p>
 <h2 id="education">Education<a class="headerlink" href="#education" title="Permanent link"></a></h2>
-<p><strong>Bachelor&rsquo;s Degree</strong><br />
-- <strong>Institution</strong>: The Open University of Israel<br />
-- <strong>Year</strong>: Second year  </p></article></body></html>
+<p><strong>B.Sc. in Computer Science</strong><br />
+- The Open University of Israel<br />
+- Currently in second year</p></article></body></html>
