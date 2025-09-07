@@ -31,10 +31,10 @@ such as the order of object files meaningfully impacting performance. the demons
 # intel internship
 # Ai deployment
 This consisted of mostly checking out new ai-models (usually llms) and methods.
-and then seeing what can be done to deploy them on new intel laptops.
-the work forced a lot of familiarity with the vram limitations.
+And then seeing what can be done to deploy them on new intel laptops.
+The work forced a lot of familiarity with the vram limitations.
 
-this also included an passing in person workshop toghether with guy tamir for 20 people.
+This also included an passing in person workshop toghether with guy tamir for 20 people.
 
 # C++ code reaserch
 Been part of a reaserch group (intel+technion colab) foucesing on LLMs that specilize in C++ code and specifically high performance C++ code usually MPI or OpenMP.
