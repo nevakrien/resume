@@ -22,7 +22,7 @@ Low-level systems programmer with research experience in LLMs.
 
 ## My Own Tools
 
-- [`source_viewer`](https://crates.io/crates/source_viewer): A language-agnostic Rust CLI tool for analyzing disassembly. Supports any language without requiring a special build.
+- [`source_viewer`](https://crates.io/crates/source_viewer): A language-agnostic Rust CLI tool for analyzing disassembly in a TUI enviorment. Supports any language without requiring a special build.
 - [`auto_new`](https://crates.io/crates/auto_new): A procedural macro for ergonomic constructor generation in Rust (100+ downloads in the first 2 days). Lightweight, fast, and dependency-free.
 
 ## Educational Content
