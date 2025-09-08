@@ -1,63 +1,80 @@
 # Related Projects
 
-# ISO compliant multithreaded datalog interpter
+## ISO-Compliant Multithreaded Datalog Interpreter
 [link](https://github.com/nevakrien/datalog_par)
 
-Fully functional and tested datalog compiler and runtime.
-ISO compliance was verified with publicly available sources
+Fully functional and tested Datalog compiler and runtime.  
+ISO compliance was verified with publicly available sources.
 
-The runtime is implemented using a custom datastructure and is measured to run a milion relations query in a 3 seconds even on older computers.
+The runtime is implemented using a custom data structure and is measured to run a million-relation query in 3 seconds even on older computers.
 
+---
 
-# Turing compiler
+## Turing Compiler
 [link](https://github.com/nevakrien/Turing-compiler)
 
-A C++11 and C99 project that compiles a turing machine like languge into x86 and arm assembly. The project is capable of inlining loops and removing constant branches as well as dead code.
+A C++11 and C99 project that compiles a Turing machine–like language into x86 and ARM assembly. The project is capable of inlining loops, removing constant branches, and eliminating dead code.  
 It is also fairly fast to compile.
 
-The compiled programs are around 2x faster than runing an interpreter and they take significantly less disk room.
+The compiled programs are around 2× faster than running an interpreter and take significantly less disk space.
 
-# SourceViewer
+---
+
+## SourceViewer
 [link](https://github.com/nevakrien/SourceViewer)
 
-A dissasmbler inspired by the perf TUI with the goal of working with any build system.
-the tool supports C C++ and Rust as well as virtually any language that produces dwarf debug information.
+A disassembler inspired by the perf TUI with the goal of working with any build system.  
+The tool supports C, C++, and Rust, as well as virtually any language that produces DWARF debug information.
+
+---
 
 ## Fayen-lang
 [link](https://github.com/nevakrien/Faeyne_lang)
 
-A simple functional programing languge with a stack based VM written in Rust.
+A simple functional programming language with a stack-based VM written in Rust.
+
+---
 
 ## Dynamic Parser
 [link](https://github.com/nevakrien/dynamic_parser)
 
-A simple LL1 parser generator that supports macros and dynamic changes to the grammar at runtime.
-this parser is complex enough to solve the C type grammar ambigiouty by itself by simply modifiying the grammar dynamically.
+A simple LL(1) parser generator that supports macros and dynamic changes to the grammar at runtime.  
+This parser is complex enough to solve the C type grammar ambiguity by itself by simply modifying the grammar dynamically.
 
-## PR to an open-source b compiler
-The PR added some minor optimizations to the compiler and laid out groundwork for others to continue.
-This code base is a bit weird and the work on it is mostly for fun.
-I have had no influnce over this style but working with it regardless.
+---
 
+## PR to an Open-Source B Compiler
 [link](https://github.com/nevakrien/b)
 
-## benchmarking errors
+The PR added some minor optimizations to the compiler and laid out groundwork for others to continue.  
+This codebase is a bit unusual and the work on it was mostly for fun.  
+I had no influence over its style but worked with it regardless.
+
+---
+
+## Benchmarking Errors
 [link](https://github.com/nevakrien/benchmark-errors)
 
-A collection of demonstrations of weird facts about computer architecture and performance.
-such as the order of object files meaningfully impacting performance. the demonstrations are allways supported by statistical analysis
+A collection of demonstrations of unusual facts about computer architecture and performance,  
+such as the order of object files meaningfully impacting performance.  
+The demonstrations are always supported by statistical analysis.
 
-# intel internship
-# Ai deployment
-refrence Guy Tamir (intel): 054-788-5085
+---
 
-This consisted of mostly checking out new ai-models (usually llms) and methods.
-And then seeing what can be done to deploy them on new intel laptops.
-The work forced a lot of familiarity with the vram limitations.
+# Intel Internship
 
-This also included an passing in person workshop toghether with guy tamir for 20 people.
+## AI Deployment
+Reference: Guy Tamir (Intel) – 054-788-5085
 
-# C++ code reaserch
+This consisted mostly of checking out new AI models (usually LLMs) and methods,  
+and then seeing what could be done to deploy them on new Intel laptops.  
+The work required a lot of familiarity with VRAM limitations.
+
+This also included co-hosting an in-person workshop together with Guy Tamir for 20 people.
+
+---
+
+# C++ Code Research
 [one of our papers](https://arxiv.org/abs/2312.13322)
 
-Been part of a reaserch group (intel+technion colab) foucesing on LLMs that specilize in C++ code and specifically high performance C++ code usually MPI or OpenMP.
+I have been part of a research group (Intel + Technion collaboration) focusing on LLMs specializing in C++ code, particularly high-performance C++ such as MPI and OpenMP.
