@@ -1,4 +1,4 @@
-TARGETS = resume.pdf short.pdf
+TARGETS = resume.pdf short.pdf langs.pdf
 
 all: $(TARGETS)
 
@@ -7,6 +7,9 @@ resume.pdf: README.md
 
 short.pdf: short.md
 	pandoc short.md -o short.pdf   -V colorlinks=true   -V linkcolor=blue
+
+langs.pdf: langs.md
+	pandoc langs.md -o langs.pdf   -V colorlinks=true   -V linkcolor=blue
 
 clean:
 	rm -rf *.html $(TARGETS)

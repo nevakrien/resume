@@ -14,7 +14,6 @@ Low-level systems programmer with research experience in LLMs.
   - One in **pure C99 + NASM**, including a full optimization pipeline (constant folding, loop unrolling, branch elimination).
   - One in **Rust**, using `unsafe` for a simple dynamic language with a VM.
 
-
 - Contributor to [cURL](https://github.com/curl/curl): Working on a [PR](https://github.com/curl/curl/pull/17152) for a 5-year-old issue, in collaboration with maintainers.
 
 ## Side Projects

@@ -27,6 +27,8 @@ Low-level systems programmer with research experience in LLMs.
 - [`source_viewer`](https://crates.io/crates/source_viewer): A language-agnostic Rust CLI tool for analyzing disassembly in a TUI enviorment. Supports any language without requiring a special build.
 - [`auto_new`](https://crates.io/crates/auto_new): A procedural macro for ergonomic constructor generation in Rust (100+ downloads in the first 2 days). Lightweight, fast, and dependency-free.
 
+- [`frame_mem_utils`](https://github.com/nevakrien/frame_mem_utils) stack only data structures for rust including a memory allocator
+
 ## Educational Content
 
 - [Blog on Medium](https://medium.com/@nevo.krien): Writings on systems programming.
