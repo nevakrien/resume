@@ -1,80 +1,84 @@
+# Neva Krien
+
+[nevo.krien@gmail.com](mailto:nevo.krien@gmail.com) | +972 54-244-9864 | [GitHub](https://github.com/nevakrien) | [Codeberg](https://codeberg.org/neva-krien)
+
 # Related Projects
 
-## ISO-Compliant Multithreaded Datalog Interpreter
-[link](https://github.com/nevakrien/datalog_par)
+## Parallel Datalog Interpreter
+[Source](https://github.com/nevakrien/datalog_par)
 
-Fully functional and tested Datalog compiler and runtime.  
-ISO compliance was verified with publicly available sources.
-
-The runtime is implemented using a custom data structure and is measured to run a million-relation query in 3 seconds even on older computers.
+A standards-oriented Datalog compiler and query engine written in Rust. It uses magic sets, custom data structures, and Rayon for parallel evaluation.
 
 ---
 
 ## Turing Compiler
-[link](https://github.com/nevakrien/Turing-compiler)
+[Source](https://github.com/nevakrien/Turing-compiler)
 
-A C++11 and C99 project that compiles a Turing machine–like language into x86 and ARM assembly. The project is capable of inlining loops, removing constant branches, and eliminating dead code.  
-It is also fairly fast to compile.
-
-The compiled programs are around 2× faster than running an interpreter and take significantly less disk space.
+A C++11 and C99 project that compiles a Turing-machine-like language into x86 and ARM assembly, with loop inlining, constant-branch removal, and dead-code elimination.
 
 ---
 
 ## SourceViewer
-[link](https://github.com/nevakrien/SourceViewer)
+[Source](https://github.com/nevakrien/SourceViewer)
 
-A disassembler inspired by the perf TUI with the goal of working with any build system.  
-The tool supports C, C++, and Rust, as well as virtually any language that produces DWARF debug information.
+A Rust TUI for exploring disassembly and source mappings from DWARF debug information, designed to work across languages and build systems.
+
+---
+
+## Stack-Backed Memory Utilities
+[Source](https://github.com/nevakrien/frame_mem_utils)
+
+Rust arenas and vector-like data structures for working with caller-provided memory without directly allocating on the heap.
+
+---
+
+## GPU Cellular Automata
+[Source](https://github.com/nevakrien/cellular-automata)
+
+A Rust and wgpu simulation engine that runs cellular automata entirely on the GPU using separate WGSL shaders for simulation and rendering.
+
+---
+
+## Benchmarking Errors
+[Source](https://github.com/nevakrien/benchmark-errors)
+
+A collection of demonstrations of unusual facts about computer architecture and performance,
+such as the order of object files meaningfully impacting performance.
+Each example includes statistical analysis.
 
 ---
 
 ## Fayen-lang
-[link](https://github.com/nevakrien/Faeyne_lang)
+[Source](https://github.com/nevakrien/Faeyne_lang)
 
 A simple functional programming language with a stack-based VM written in Rust.
 
 ---
 
 ## Dynamic Parser
-[link](https://github.com/nevakrien/dynamic_parser)
+[Source](https://github.com/nevakrien/dynamic_parser)
 
-A simple LL(1) parser generator that supports macros and dynamic changes to the grammar at runtime.  
-This parser is complex enough to solve the C type grammar ambiguity by itself by simply modifying the grammar dynamically.
-
----
-
-## PR to an Open-Source B Compiler
-[link](https://github.com/nevakrien/b)
-
-The PR added some minor optimizations to the compiler and laid out groundwork for others to continue.  
-This codebase is a bit unusual and the work on it was mostly for fun.  
-I had no influence over its style but worked with it regardless.
+An LL(1) parser generator that supports macros and runtime grammar changes, including handling C's type grammar ambiguity by updating the grammar dynamically.
 
 ---
 
-## Benchmarking Errors
-[link](https://github.com/nevakrien/benchmark-errors)
+# Open Source & Language Community
 
-A collection of demonstrations of unusual facts about computer architecture and performance,  
-such as the order of object files meaningfully impacting performance.  
-The demonstrations are always supported by statistical analysis.
+- Collaborate on API design and implementation for the Rust diagnostics library [Ariadne](https://codeberg.org/zesterer/ariadne), across its earlier [GitHub repository](https://github.com/zesterer/ariadne) and current development on Codeberg.
+- Helped contributors across several beginner-led programming-language projects through guidance, debugging, and occasional code contributions; also worked on an optimization for an open-source [B compiler](https://github.com/bext-lang/b/pull/172).
 
 ---
 
 # Intel Internship
 
 ## AI Deployment
-Reference: Guy Tamir (Intel) – 054-788-5085
+Reference: Guy Tamir (Intel), 054-788-5085
 
-This consisted mostly of checking out new AI models (usually LLMs) and methods,  
-and then seeing what could be done to deploy them on new Intel laptops.  
-The work required a lot of familiarity with VRAM limitations.
-
-This also included co-hosting an in-person workshop together with Guy Tamir for 20 people.
+Evaluated AI models, primarily LLMs, and explored deployment methods for Intel laptops under VRAM constraints. This work also included co-hosting an in-person workshop with Guy Tamir for 20 participants.
 
 ---
 
 # C++ Code Research
-[one of our papers](https://arxiv.org/abs/2312.13322)
+[One of the research group's papers](https://arxiv.org/abs/2312.13322)
 
 I have been part of a research group (Intel + Technion collaboration) focusing on LLMs specializing in C++ code, particularly high-performance C++ such as MPI and OpenMP.
